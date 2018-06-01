@@ -216,23 +216,50 @@ input[type=submit] {
   border: 0 none;
 }
 
- @media screen and (min-width: 640px) {
+ @media screen and (max-width: 640px) {
     .container {
-        width: 768px;
+      width: 90%;
     }
+    #logo {
+      width: 100%;
+    }
+    .navbar{
+      width: 100%
+    }
+    .navdiv{
+      text-align: center;
+    }
+    .auth-image {
+      float: none;
+      width: 350px;
+} 
+ }
+
+@media screen and (max-width: 768px) {
+    .container {
+       width: 90%;
+    }
+    #logo {
+      width: 100%;
+    }
+    .navbar{
+      width: 100%
+    }
+    .navdiv{
+      text-align: center;
+    }
+    .auth-image {
+      float: none;
+      width: 350px;
 } 
 
-@media screen and (min-width: 768px) {
-    .container {
-        width: 960px;
-    }
-    .masthead {
-      position: fixed;
-    }
+  
   }
 
-  @media screen and (min-width: 980px) {
+  @media screen and (max-width: 980px) {
     .container {
-        width: 960px;
+        /* background-color: red; */
+        width:90%;
     }
+
   }
